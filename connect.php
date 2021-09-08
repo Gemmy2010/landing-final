@@ -4,7 +4,7 @@
     $message = $_POST['message'];
 
      //Database connection
-    $conn = new mysqli("biketrace.se.mysql", "biketrace_se_digitron", "Nitai161@8", "biketrace_se_digitron");
+    $conn = new mysqli("");
     if($conn->connect_error){
             die('Connection failed : '.$conn->connect_error);
     }else{
